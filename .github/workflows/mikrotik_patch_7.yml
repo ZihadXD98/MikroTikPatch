@@ -49,14 +49,9 @@ env:
   CUSTOM_NPK_SIGN_PUBLIC_KEY: 28F886E32C141123126CFBCAD56766E99D1720CEB1F12BE2468BEBE7662FBEDB
   CUSTOM_LICENSE_PRIVATE_KEY: 9DBC845E9018537810FDAE62824322EEE1B12BAD81FCA28EC295FB397C61CE0B
   CUSTOM_LICENSE_PUBLIC_KEY: 723A34A6E3300F23E4BAA06156B9327514AEC170732655F16E04C17928DD770F
-  MIKRO_LICENCE_URL: https://api.mikrotik.com/license
-  CUSTOM_LICENCE_URL: https://upgrade.mikrotik.com/license
-  MIKRO_UPGRADE_URL: https://upgrade.mikrotik.com/upgrade
-  CUSTOM_UPGRADE_URL: https://upgrade.mikrotik.com/upgrade
-  MIKRO_RENEW_URL: https://upgrade.mikrotik.com/renew
-  CUSTOM_RENEW_URL: https://upgrade.mikrotik.com/renew
-  MIKRO_CLOUD_URL: https://cloud.mikrotik.com/endpoint
-  CUSTOM_CLOUD_URL: https://upgrade.mikrotik.com/endpoint
+  CUSTOM_LICENCE_URL: https://upgrade.mikrotik.com
+  MIKRO_UPGRADE_URL: https://upgrade.mikrotik.com
+  CUSTOM_UPGRADE_URL: https://upgrade.mikrotik.com
 
 jobs:
   Set_Variables:
