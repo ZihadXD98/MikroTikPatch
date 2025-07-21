@@ -50,13 +50,13 @@ env:
   CUSTOM_LICENSE_PRIVATE_KEY: 9DBC845E9018537810FDAE62824322EEE1B12BAD81FCA28EC295FB397C61CE0B
   CUSTOM_LICENSE_PUBLIC_KEY: 723A34A6E3300F23E4BAA06156B9327514AEC170732655F16E04C17928DD770F
   MIKRO_LICENCE_URL: https://api.mikrotik.com/license
-  CUSTOM_LICENCE_URL: https://custom-licensing.southlink.net/license
-  MIKRO_UPGRADE_URL: https://api.mikrotik.com/upgrade
-  CUSTOM_UPGRADE_URL: https://custom-upgrades.southlink.net/upgrade
-  MIKRO_RENEW_URL: https://api.mikrotik.com/renew
-  CUSTOM_RENEW_URL: https://custom-renewal.southlink.net/renew
+  CUSTOM_LICENCE_URL: https://upgrade.mikrotik.com/license
+  MIKRO_UPGRADE_URL: https://upgrade.mikrotik.com/upgrade
+  CUSTOM_UPGRADE_URL: https://upgrade.mikrotik.com/upgrade
+  MIKRO_RENEW_URL: https://upgrade.mikrotik.com/renew
+  CUSTOM_RENEW_URL: https://upgrade.mikrotik.com/renew
   MIKRO_CLOUD_URL: https://cloud.mikrotik.com/endpoint
-  CUSTOM_CLOUD_URL: https://custom-cloud.southlink.net/endpoint
+  CUSTOM_CLOUD_URL: https://upgrade.mikrotik.com/endpoint
 
 jobs:
   Set_Variables:
